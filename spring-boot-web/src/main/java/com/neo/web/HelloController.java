@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 	
     @RequestMapping("/hello")
-	public String hello(Locale locale, Model model) {
+	public String hello(Locale a, Model model) {
 		return "Hello World";
 	}
 
